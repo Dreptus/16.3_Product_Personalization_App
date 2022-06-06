@@ -1,0 +1,24 @@
+
+@use 'sass:math';
+@import '../../styles/settings.scss';
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  margin: ($base-size * 6) ($base-size * 3);
+  background: $background-gradient;
+  border-radius: $radius;
+  box-shadow: $box-shadow;
+  padding: ($base-size * 2) $base-size;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: -$base-size * 2;
+  right: -$base-size * 2;
+  font-size: $base-size * 2;
+  border-radius: 100%;
+  width: $base-size * 5;
+  height: $base-size * 5;
+}
